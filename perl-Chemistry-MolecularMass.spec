@@ -10,7 +10,7 @@ Summary(pl0:	Chemistry::MolecularMass - obliczanie masy cz±steczkowej zwi±zków z
 Name:		perl-Chemistry-MolecularMass
 Version:	0.1
 Release:	1
-License:	Perl Artistic Licence
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d0d56e49920ca0f18237ef81ef946ca6
