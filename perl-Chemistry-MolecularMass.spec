@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Chemistry
-%define	pnam	MolecularMass
+%define		pdir	Chemistry
+%define		pnam	MolecularMass
 Summary:	Chemistry::MolecularMass - calculating molecular mass of a chemical compound given its chemical formula
 Summary(pl):	Chemistry::MolecularMass - obliczanie masy cz±steczkowej zwi±zków zadanych wzorem chemicznym
 Name:		perl-Chemistry-MolecularMass
