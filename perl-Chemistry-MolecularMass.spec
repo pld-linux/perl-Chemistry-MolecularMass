@@ -5,7 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Chemistry
 %define	pnam	MolecularMass
-Summary:	Chemistry::MolecularMass - Perl extension for calculating molecular mass of a chemical compound given its chemical formula.
+Summary:	Chemistry::MolecularMass - calculating molecular mass of a chemical compound given its chemical formula
+Summary(pl0:	Chemistry::MolecularMass - obliczanie masy cz±steczkowej zwi±zków zadanych wzorem chemicznym
 Name:		perl-Chemistry-MolecularMass
 Version:	0.1
 Release:	1
@@ -18,11 +19,18 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Chemistry::MolecularMass is an Object Oriented Perl module for calculating
-molcular mass of chemical compounds implemented with Perl and C.
-Molecular masses of elements stored in the module follow recommendations
-of IUPAC (1995). The module includes elements from H(1) through
-Uuu(113) and isotopes of hydrogen: deuterium and tritium. 
+Chemistry::MolecularMass is an Object Oriented Perl module for
+calculating molecular mass of chemical compounds implemented with Perl
+and C. Molecular masses of elements stored in the module follow
+recommendations of IUPAC (1995). The module includes elements from
+H(1) through Uuu(113) and isotopes of hydrogen: deuterium and tritium.
+
+%description -l pl
+Chemistry::MolecularMass to obiektowo zorientowany modu³ Perla do
+obliczania masy cz±steczkowej zwi±zków chemicznych zaimplementowany w
+Perlu i C. Masy cz±steczkowe pierwiastków s± zapisane w module zgodnie
+z zaleceniami IUPAC (1995). Modu³ zawiera pierwiastki od H(1) do
+Uuu(113) oraz izotopy wodoru: deuter i tryt.
 
 %prep
 %setup -q -n %{pdir}/%{pnam}
@@ -49,6 +57,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorarch}/Chemistry/MolecularMass.pm
+%dir %{perl_vendorarch}/auto/Chemistry/MolecularMass
 %{perl_vendorarch}/auto/Chemistry/MolecularMass/MolecularMass.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Chemistry/MolecularMass/MolecularMass.so
 %{_mandir}/man3/*
