@@ -6,7 +6,7 @@
 %define		pdir	Chemistry
 %define		pnam	MolecularMass
 Summary:	Chemistry::MolecularMass - calculating molecular mass of a chemical compound given its chemical formula
-Summary(pl):	Chemistry::MolecularMass - obliczanie masy cz±steczkowej zwi±zków zadanych wzorem chemicznym
+Summary(pl.UTF-8):   Chemistry::MolecularMass - obliczanie masy czÄ…steczkowej zwiÄ…zkÃ³w zadanych wzorem chemicznym
 Name:		perl-Chemistry-MolecularMass
 Version:	0.1
 Release:	1
@@ -25,11 +25,11 @@ and C. Molecular masses of elements stored in the module follow
 recommendations of IUPAC (1995). The module includes elements from
 H(1) through Uuu(113) and isotopes of hydrogen: deuterium and tritium.
 
-%description -l pl
-Chemistry::MolecularMass to obiektowo zorientowany modu³ Perla do
-obliczania masy cz±steczkowej zwi±zków chemicznych zaimplementowany w
-Perlu i C. Masy cz±steczkowe pierwiastków s± zapisane w module zgodnie
-z zaleceniami IUPAC (1995). Modu³ zawiera pierwiastki od H(1) do
+%description -l pl.UTF-8
+Chemistry::MolecularMass to obiektowo zorientowany moduÅ‚ Perla do
+obliczania masy czÄ…steczkowej zwiÄ…zkÃ³w chemicznych zaimplementowany w
+Perlu i C. Masy czÄ…steczkowe pierwiastkÃ³w sÄ… zapisane w module zgodnie
+z zaleceniami IUPAC (1995). ModuÅ‚ zawiera pierwiastki od H(1) do
 Uuu(113) oraz izotopy wodoru: deuter i tryt.
 
 %prep
