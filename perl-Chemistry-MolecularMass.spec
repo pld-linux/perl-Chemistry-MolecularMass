@@ -6,7 +6,7 @@
 %define		pdir	Chemistry
 %define		pnam	MolecularMass
 Summary:	Chemistry::MolecularMass - calculating molecular mass of a chemical compound given its chemical formula
-Summary(pl.UTF-8):   Chemistry::MolecularMass - obliczanie masy cząsteczkowej związków zadanych wzorem chemicznym
+Summary(pl.UTF-8):	Chemistry::MolecularMass - obliczanie masy cząsteczkowej związków zadanych wzorem chemicznym
 Name:		perl-Chemistry-MolecularMass
 Version:	0.1
 Release:	1
