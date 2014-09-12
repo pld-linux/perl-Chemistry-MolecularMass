@@ -59,6 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Chemistry/MolecularMass.pm
 %dir %{perl_vendorarch}/auto/Chemistry/MolecularMass
-%{perl_vendorarch}/auto/Chemistry/MolecularMass/MolecularMass.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Chemistry/MolecularMass/MolecularMass.so
 %{_mandir}/man3/*
