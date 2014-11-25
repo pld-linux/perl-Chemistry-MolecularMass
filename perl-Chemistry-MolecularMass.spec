@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Chemistry
 %define		pnam	MolecularMass
+%include	/usr/lib/rpm/macros.perl
 Summary:	Chemistry::MolecularMass - calculating molecular mass of a chemical compound given its chemical formula
 Summary(pl.UTF-8):	Chemistry::MolecularMass - obliczanie masy cząsteczkowej związków zadanych wzorem chemicznym
 Name:		perl-Chemistry-MolecularMass
@@ -14,6 +14,7 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d0d56e49920ca0f18237ef81ef946ca6
+URL:		http://search.cpan.org/dist/Chemistry-MolecularMass/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
