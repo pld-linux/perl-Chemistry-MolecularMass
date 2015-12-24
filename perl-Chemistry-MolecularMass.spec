@@ -9,7 +9,7 @@ Summary:	Chemistry::MolecularMass - calculating molecular mass of a chemical com
 Summary(pl.UTF-8):	Chemistry::MolecularMass - obliczanie masy cząsteczkowej związków zadanych wzorem chemicznym
 Name:		perl-Chemistry-MolecularMass
 Version:	0.1
-Release:	7
+Release:	8
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
