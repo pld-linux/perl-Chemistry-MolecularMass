@@ -4,7 +4,6 @@
 
 %define		pdir	Chemistry
 %define		pnam	MolecularMass
-%include	/usr/lib/rpm/macros.perl
 Summary:	Chemistry::MolecularMass - calculating molecular mass of a chemical compound given its chemical formula
 Summary(pl.UTF-8):	Chemistry::MolecularMass - obliczanie masy cząsteczkowej związków zadanych wzorem chemicznym
 Name:		perl-Chemistry-MolecularMass
